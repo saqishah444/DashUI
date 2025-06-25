@@ -1,12 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <h1>hello world
-    </h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 dark-color ">
+                <div class="menu-side ms-3">
+                    <h4 class="my-3 fw-bold "><a href="">Dash UI</a></h4>
+                    <ul class="mt-4">
+                        <li><a href="" class="white-color">
+                                <i class="ri-home-5-line me-1"></i> Dashboard
+                            </a></li>
+                        <li class="full-dark fw-bold text-uppercase mt-4"> Layouts & Pages </li>
+                        <li class="mt-4">
+                            <a class="#" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <div class="d-flex justify-content-between light-dark ">
+                                    <div class=""> <i class="ri-stack-line me-1  "></i> Pages </div>
+                                    <div class="ms-5"><i class="ri-arrow-down-s-line"></i></div>
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body dark-color border-0">
+                                    <ul>
+                                        <li class="ms-2 "><a href="" class="light-dark">Profile</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Settings</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Billing</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Pricing</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">404 Error</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="mt-4">
+                            <a class="#" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <div class="d-flex justify-content-between light-dark">
+                                    <div> <i class="ri-lock-line"></i> Authentication</div>
+                                    <div class="ms-4"><i class="ri-arrow-down-s-line"></i></div>
+                                </div>
+
+
+
+
+                            </a>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body dark-color border-0">
+                                    <ul>
+                                        <li class="ms-2 "><a href="" class="light-dark">Sign In</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Sign Up</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Forget Password</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-layout-left-line me-1 "></i> Layouts
+                            </a></li>
+                        <li class="full-dark fw-bold text-uppercase  mt-4"> UI Components </li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-box-3-line me-1 "></i> Components
+                            </a></li>
+                        <li class="mt-4">
+
+                            <a class="#" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <div class="d-flex justify-content-between light-dark">
+                                    <div> <i class="ri-corner-left-down-line"></i> Menu Level</div>
+                                    <div class="ms-4"><i class="ri-arrow-down-s-line"></i></div>
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body dark-color border-0">
+                                    <ul>
+                                        <li class="ms-2 ">
+
+                                            <a class="#" data-bs-toggle="collapse" href="#collapseExample4"
+                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <div class="d-flex justify-content-between light-dark">
+                                                    <div>Two Level </div>
+                                                    <div><i class="ri-arrow-down-s-line"></i></div>
+                                                </div>
+                                            </a>
+                                            <div class="collapse" id="collapseExample4">
+                                                <div class="card card-body dark-color border-0">
+                                                    <ul>
+                                                        <li class="ms-2 "><a href="" class="light-dark">NavItem 1</a>
+                                                        </li>
+                                                        <li class="ms-2 mt-2"><a href="" class="light-dark">NavItem
+                                                                2</a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="ms-2 mt-2">
+
+                                            <a class="#" data-bs-toggle="collapse" href="#collapseExample5"
+                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <div class="d-flex justify-content-between light-dark">
+                                                    <div> Three Level</div>
+                                                    <div class=""><i class="ri-arrow-down-s-line"></i></div>
+                                                </div>
+                                            </a>
+                                            <div class="collapse" id="collapseExample5">
+                                                <div class="card card-body dark-color border-0">
+                                                    <ul>
+                                                        <li class="ms-2 "><a href="" class="light-dark">NavItem 1</a>
+                                                        </li>
+                                                        <li class="ms-2 mt-2"><a href="" class="light-dark">NavItem
+                                                                2</a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="full-dark fw-bold text-uppercase   mt-4"> Documentation </li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-clipboard-line me-1  "></i> Docs
+                            </a></li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-exchange-2-line me-1 "></i> Changelog
+                            </a></li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-download-cloud-2-line me-1 "></i> Downloads
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 p-0 m-0">
+                <div class="content-side">
+                    <div class="container-fluid ">
+                        <nav class="p-2">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex gap-4">
+                                    <div class="px-1 align-content-center fw-bold fs-6"><a href="#"><i
+                                                class="ri-menu-line text-body-secondary"></i></a></div>
+                                    <form action="">
+                                        <input type="search" name="search" class="form-control" id=""
+                                            placeholder="Search">
+                                    </form>
+                                </div>
+                                <div class="d-flex text-center gap-2">
+                                    <div class="notification-icon mt-auto">
+                                        <i class="ri-notification-2-line"></i>
+                                    </div>
+                                    <div class="position-relative dropdown-toggle">
+                                        <a href="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./assets/images/avatar-1.jpg" class="img-fluid rounded-circle"
+                                                width="40px" height="40px" alt="" srcset="">
+
+                                            <div class="position-absolute img-absolute">
+                                                <div></div>
+                                            </div>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><span class="dropdown-item dropdown-item1 pb-0">
+                                                    <h6 class="pb-0 mb-0">John E. Grainger</h6>
+
+                                                    <p class=" mt-1"><a href="">View my Profile</a></p>
+
+                                                </span>
+                                            </li>
+
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-user-line me-2"></i><span
+                                                            class="align-items-center">Edit Profile</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-user-line me-2"></i><span
+                                                            class="align-items-center">Activity Log</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-user-line me-2"></i><span
+                                                            class="align-items-center">Go Pro</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-user-line me-2"></i><span
+                                                            class="align-items-center">Account Settings</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-user-line me-2"></i><span
+                                                            class="align-items-center">Sign Out</span> </p>
+                                                </a></li>
+
+
+                                        </ul>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </nav>
+
+                    </div>
+                    <section id="project">
+                        <div class="container-fluid p-0">
+                            <div class="primary-background"><span class="opacity-0">text</span></div>
+                            <div class="row px-4 row-margin-top">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div>
+                                            <p class="fs-3 white-color">Project</p>
+                                        </div>
+                                        <div>
+                                            <a href="" class="btn btn-light bg-light"> Create New Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6 col-xl-3">
+                                    <div class="p-4 pb-2 bg-light rounded-2 shadow-sm">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="projects-h">Project</p>
+                                            <i
+                                                class=" projects-icon  ri-calendar-line bg-secondary-subtle p-1 rounded-2 "></i>
+                                        </div>
+                                        <h2 class="fw-bold mt-1 fs-1">18</h2>
+                                        <p>2 <span class="light-dark ms-1">Completed</span></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6 col-xl-3">
+                                    <div class="p-4 pb-2 bg-light rounded-2 shadow-sm">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="projects-h">Active Task</p>
+                                            <i
+                                                class=" projects-icon ri-menu-5-line bg-secondary-subtle p-1 rounded-2 "></i>
+                                        </div>
+                                        <h2 class="fw-bold mt-1 fs-1">132</h2>
+                                        <p>2 <span class="light-dark ms-1">Completed</span></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6 col-xl-3">
+                                    <div class="p-4 pb-2 bg-light rounded-2 shadow-sm">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="projects-h">Teams</p>
+                                            <i
+                                                class=" projects-icon  ri-group-line bg-secondary-subtle p-1 rounded-2 "></i>
+                                        </div>
+                                        <h2 class="fw-bold mt-1 fs-1">12</h2>
+                                        <p>2 <span class="light-dark ms-1">Completed</span></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6 col-xl-3">
+                                    <div class="p-4 pb-2 bg-light rounded-2 shadow-sm">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="projects-h">Productivity</p>
+                                            <i
+                                                class=" projects-icon ri-donut-chart-line bg-secondary-subtle p-1 rounded-2 "></i>
+                                        </div>
+                                        <h2 class="fw-bold mt-1 fs-1">76%</h2>
+                                        <p>2 <span class="light-dark ms-1">Completed</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

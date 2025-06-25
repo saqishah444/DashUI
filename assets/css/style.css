@@ -17,8 +17,11 @@ ul {
 }
 body {
     font-family: "Inter", sans-serif;
+    width: 100%;
 }
-
+.green-color{
+    color: #198754 !important;
+}
 .dark-color {
    background-color: #212b36;
 }

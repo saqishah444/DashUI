@@ -1,7 +1,7 @@
 a,
 span {
     text-decoration: none;
-    
+
 
 }
 
@@ -9,77 +9,110 @@ ul {
     list-style: none;
     padding: 0;
 }
-.margin-bottom-remove{
+
+.margin-bottom-remove {
     margin-bottom: 0 !important;
     margin-right: 0 !important;
     padding-bottom: 0 !important;
-    padding-right:0 !important ;
+    padding-right: 0 !important;
 }
+
 body {
     font-family: "Inter", sans-serif;
+    background-color: #f9fafb;
     width: 100%;
 }
-.green-color{
+.row-height{
+    height: 100%;
+    
+}
+.left-side{
+    max-width: 250px;
+    display: block;
+}
+.green-color {
     color: #198754 !important;
 }
+
 .dark-color {
-   background-color: #212b36;
+    background-color: #212b36;
 }
-.light-dark{
+
+.light-dark {
     color: #919eab !important;
     transition: all 0.3s ease;
 }
-.light-dark:hover{
+
+.light-dark:hover {
     color: white !important;
-    i{
+
+    i {
         color: white !important;
     }
 }
-.white-color{
+
+.white-color {
     color: white !important;
 }
+
 .full-dark {
     color: #454f5b;
     letter-spacing: 1px;
     font-size: 13px !important;
     text-transform: capitalize;
-    
+
+}
+.text-light-dark{
+    color: #919eab !important;
+}
+.bottom-border{
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.menu-side {
+    transition: all .3s ease;
+    height: 100% !important;
 }
 
-.menu-side{
-    transition: all .3s ease;
+.left-side {
+    height: 100% !important;
 }
+
 .menu-side ul li {
     font-size: 15px;
 }
-.menu-side a{
+
+.menu-side a {
     color: #f4f6f8;
-    h4{
+
+    h4 {
         margin-left: 32px;
     }
 }
 
 .card ul li {
-   
+
     font-size: 15px;
-    a{
+
+    a {
         color: #919eab !important;
-         transition: all .3s ease !important;
+        transition: all .3s ease !important;
     }
-    
+
 }
 
-.notification-icon{
+.notification-icon {
     width: 35px;
     height: 35px;
     border-radius: 100%;
     background-color: #e9e9e9;
     align-content: center;
 }
-nav{
+
+nav {
     background-color: white;
 }
-.img-absolute{
+
+.img-absolute {
     width: 13px;
     height: 13px;
     border-radius: 100%;
@@ -89,18 +122,55 @@ nav{
     border: 2px solid white;
 
 }
+.dropdown-toggle::after {
+    display: none !important;
+}
 
-.primary-background{
+.dropdown-item1 p {
+    font-size: 12px !important;
+}
+
+.dropdown-item:hover p {
+    color: #624bff;
+}
+
+.dropdown-item1 {
+    border-bottom: 1px solid rgb(212, 212, 212);
+
+    p:hover {
+        color: #624bff !important;
+    }
+
+}
+
+.dropdown-item1 p a {
+    color: #212b36;
+}
+
+.dropdown-item1 p a:hover {
+    color: #624bff;
+}
+
+.dropdown-item2 {
+    font-size: 15px !important;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+    gap: 0 !important;
+}
+
+.primary-background {
     background-color: #624bff !important;
     opacity: 1;
     padding-top: 64px !important;
     padding-bottom: 150px !important;
-    
+
 }
-.row-margin-top{
-    margin-top: -160px !important;
+
+.row-margin-top {
+    margin-top: -165px !important;
 }
-.projects-icon{
+
+.projects-icon {
     height: 40px !important;
     color: #624bff !important;
     width: 40px;
@@ -108,38 +178,53 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.projects-h{
-   margin-top: 5px;
-   font-size: 18px !important;
+
+.projects-h {
+    margin-top: 5px;
+    font-size: 18px !important;
 }
-.shadow-sm{
-    box-shadow: 0px 0px 7px 0px #bababa !important
+
+.shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
 }
-.dropdown-toggle::after{
-    display: none !important;
+.table-responsive{
+    width: 100% !important;
 }
-.dropdown-item1 p{
-    font-size: 12px !important;
-}
-.dropdown-item:hover p{
-    color: #624bff;
-}
-.dropdown-item1{
-    border-bottom: 1px solid rgb(212, 212, 212);
-    p:hover{
-        color: #624bff !important;
+
+.avater-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    z-index: 1;
+    p{
+        font-size: 13px;
     }
+}
+.avater-counting{
+        font-size: 14px;
+       
+        border-radius: 100%;
+    
+}
+.avater-margin:hover{
+    z-index: 2;
+}
+.avater-margin{
+    margin-left: -15px;
+}
+.avater-margin2{
+    margin-left: -15px;
+    margin-top: 3px;
+}
+.avater-margin2:hover{
+    z-index: 2;
 
 }
-.dropdown-item1 p a{
-    color: #212b36;
+.text-black:hover{
+    color: #624bff !important;
+
 }
-.dropdown-item1 p a:hover{
-    color: #624bff;
-}
-.dropdown-item2{
-    font-size: 15px !important;
-    padding-bottom:0 ;
-    margin-bottom: 0 !important;
-    gap: 0 !important;
+.error-heading{
+    font-size: 60px !important;
+    font-weight: 700 !important;
 }

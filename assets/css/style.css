@@ -68,14 +68,17 @@ body {
 .bottom-border{
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+/* .row{
+    margin: 0;
+    width: 100%;
+} */
+
 .menu-side {
     transition: all .3s ease;
-    height: 100% !important;
+   
 }
 
-.left-side {
-    height: 100% !important;
-}
+
 
 .menu-side ul li {
     font-size: 15px;
@@ -167,8 +170,10 @@ nav {
 }
 
 .row-margin-top {
+ 
     margin-top: -165px !important;
 }
+
 
 .projects-icon {
     height: 40px !important;
@@ -227,4 +232,22 @@ nav {
 .error-heading{
     font-size: 60px !important;
     font-weight: 700 !important;
+}
+.text-light-dark{
+    a{
+        color:#919eab  !important;
+    }
+}
+.text-light-dark:hover{
+    a{
+        color: #624bff !important;
+    }
+}
+.mastercard-img{
+    width: 30px;
+    height: 20px;
+}
+.progress{
+    height: 8px;
+    margin: 5px 0;
 }

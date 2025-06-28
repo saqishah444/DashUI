@@ -33,7 +33,9 @@ body {
 .green-color {
     color: #198754 !important;
 }
-
+.text-size{
+    font-size: 15px !important;
+}
 .dark-color {
     background-color: #212b36;
 }
@@ -260,7 +262,7 @@ nav {
 .table{
     width: 100% !important;
     padding: 0 !important;
-    
+
 }
 .table-avater-img{
     height: 50px;
@@ -270,4 +272,10 @@ nav {
      height: 35px;
     width: 35px;
     line-height: 30px;
+}
+.btn-dark{
+    padding: 7px 45px !important;
+}
+.margin-top{
+    margin-top: 80px;
 }

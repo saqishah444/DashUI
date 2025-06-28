@@ -37,6 +37,12 @@ body {
 .dark-color {
     background-color: #212b36;
 }
+.text-dark-color{
+    color: #777373;;
+}
+.text-dark{
+    color: #d8dbdf;
+}
 
 .light-dark {
     color: #919eab !important;
@@ -250,4 +256,18 @@ nav {
 .progress{
     height: 8px;
     margin: 5px 0;
+}
+.table{
+    width: 100% !important;
+    padding: 0 !important;
+    
+}
+.table-avater-img{
+    height: 50px;
+    width: 50px;
+}
+.table1-avater-img{
+     height: 35px;
+    width: 35px;
+    line-height: 30px;
 }

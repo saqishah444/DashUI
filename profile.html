@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-2 dark-color left-side ">
+                <div class="menu-side ms-3">
+                    <h4 class="my-3 fw-bold "><a href="./index.html">Dash UI</a></h4>
+                    <ul class="mt-4">
+                        <li><a href="./index.html" class="white-color">
+                                <i class="ri-home-5-line me-1"></i> Dashboard
+                            </a></li>
+                        <li class="full-dark fw-bold text-uppercase mt-4"> Layouts & Pages </li>
+                        <li class="mt-4">
+                            <a class="#" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <div class="d-flex justify-content-between light-dark ">
+                                    <div class=""> <i class="ri-stack-line me-1  "></i> Pages </div>
+                                    <div class="ms-5"><i class="ri-arrow-down-s-line"></i></div>
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body dark-color border-0">
+                                    <ul>
+                                        <li class="ms-2 "><a href="" class="light-dark">Profile</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Settings</a></li>
+                                        <li class="ms-2 mt-2"><a href="./billing.html" class="light-dark">Billing</a>
+                                        </li>
+                                        <li class="ms-2 mt-2"><a href="./pricing.html" class="light-dark">Pricing</a>
+                                        </li>
+                                        <li class="ms-2 mt-2"><a href="./error.html" class="light-dark">404 Error</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="mt-4">
+                            <a class="#" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <div class="d-flex justify-content-between light-dark">
+                                    <div> <i class="ri-lock-line"></i> Authentication</div>
+                                    <div class="ms-4"><i class="ri-arrow-down-s-line"></i></div>
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body dark-color border-0">
+                                    <ul>
+                                        <li class="ms-2 "><a href="" class="light-dark">Sign In</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Sign Up</a></li>
+                                        <li class="ms-2 mt-2"><a href="" class="light-dark">Forget Password</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-layout-left-line me-1 "></i> Layouts
+                            </a></li>
+                        <li class="full-dark fw-bold text-uppercase  mt-4"> UI Components </li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-box-3-line me-1 "></i> Components
+                            </a></li>
+                        <li class="mt-4">
+
+                            <a class="#" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <div class="d-flex justify-content-between light-dark">
+                                    <div> <i class="ri-corner-left-down-line ri-lg"></i> Menu Level</div>
+                                    <div class="ms-4"><i class="ri-arrow-down-s-line"></i></div>
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body dark-color border-0">
+                                    <ul>
+                                        <li class="ms-2 ">
+
+                                            <a class="#" data-bs-toggle="collapse" href="#collapseExample4"
+                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <div class="d-flex justify-content-between light-dark">
+                                                    <div>Two Level </div>
+                                                    <div><i class="ri-arrow-down-s-line"></i></div>
+                                                </div>
+                                            </a>
+                                            <div class="collapse" id="collapseExample4">
+                                                <div class="card card-body dark-color border-0">
+                                                    <ul>
+                                                        <li class="ms-2 "><a href="" class="light-dark">NavItem 1</a>
+                                                        </li>
+                                                        <li class="ms-2 mt-2"><a href="" class="light-dark">NavItem
+                                                                2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="ms-2 mt-2">
+
+                                            <a class="#" data-bs-toggle="collapse" href="#collapseExample5"
+                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <div class="d-flex justify-content-between light-dark">
+                                                    <div> Three Level</div>
+                                                    <div class=""><i class="ri-arrow-down-s-line"></i></div>
+                                                </div>
+                                            </a>
+                                            <div class="collapse" id="collapseExample5">
+                                                <div class="card card-body dark-color border-0">
+                                                    <ul>
+                                                        <li class="ms-2 "><a href="" class="light-dark">NavItem 1</a>
+                                                        </li>
+                                                        <li class="ms-2 mt-2"><a href="" class="light-dark">NavItem
+                                                                2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="full-dark fw-bold text-uppercase   mt-4"> Documentation </li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-clipboard-line me-1  "></i> Docs
+                            </a></li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-exchange-2-line me-1 "></i> Changelog
+                            </a></li>
+                        <li class="mt-4"><a href="" class="light-dark">
+                                <i class="ri-download-cloud-2-line me-1 "></i> Downloads
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 p-0 m-0">
+                <div class="content-side">
+                    <div class="container-fluid ">
+                        <nav class="p-2">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex gap-4">
+                                    <div class="px-1 align-content-center fw-bold fs-6"><a href="#"><i
+                                                class="ri-menu-line text-body-secondary"></i></a></div>
+                                    <form action="">
+                                        <input type="search" name="search" class="form-control" id=""
+                                            placeholder="Search">
+                                    </form>
+                                </div>
+                                <div class="d-flex text-center gap-2">
+                                    <div class="notification-icon mt-auto dropdown-toggle">
+                                        <a href="" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <i
+                                                class="ri-notification-2-line text-secondary"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><span
+                                                    class="dropdown-item dropdown-item1 pb-0 d-flex justify-content-between align-content-center gap-5">
+                                                    <h6 class="pb-0 mb-0">Notifications</h6>
+
+                                                    <p class=" pb-0 ms-5 "><a href=""><i
+                                                                class="ri-settings-5-line ri-lg"></i></a></p>
+
+                                                </span>
+                                            </li>
+
+                                            <li class="margin-bottom-remove p-2 bottom-border"><a
+                                                    class="dropdown-item dropdown-item2  " href="#">
+                                                    <h6>Neha Kanned</h6>
+                                                    <p class="me-3 margin-bottom-remove text-light-dark  mt-0"> <small>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                        </small>
+                                                    </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove p-2 bottom-border"><a
+                                                    class="dropdown-item dropdown-item2  " href="#">
+                                                    <h6>Neha Kanned</h6>
+                                                    <p class="me-3 margin-bottom-remove text-light-dark  mt-0"> <small>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            <br />
+                                                            Corporis, explicabo.</small>
+                                                    </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove p-2 bottom-border"><a
+                                                    class="dropdown-item dropdown-item2  " href="#">
+                                                    <h6>Neha Kanned</h6>
+                                                    <p class="me-3 margin-bottom-remove text-light-dark  mt-0"> <small>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            <br />
+                                                            Corporis, explicabo Corporis, explicabo. </small>
+                                                    </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove p-2 bottom-border"><a
+                                                    class="dropdown-item dropdown-item2  " href="#">
+                                                    <h6>Neha Kanned</h6>
+                                                    <p class="me-3 margin-bottom-remove text-light-dark  mt-0"> <small>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            <br />
+                                                        </small>
+                                                    </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove p-2"><a
+                                                    class="dropdown-item dropdown-item2  " href="#">
+                                                    <h6>Neha Kanned</h6>
+                                                    <p class="me-3 margin-bottom-remove text-light-dark  mt-0"> <small>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            <br />
+                                                            Corporis, explicabo. Corporis, explicabo. Corporis, <br />
+                                                            explicabo.</small>
+                                                    </p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="position-relative dropdown-toggle">
+                                        <a href="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./assets/images/avatar-1.jpg" class="img-fluid rounded-circle"
+                                                width="40px" height="40px" alt="" srcset="">
+
+                                            <div class="position-absolute img-absolute">
+                                                <div></div>
+                                            </div>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><span class="dropdown-item dropdown-item1 pb-0">
+                                                    <h6 class="pb-0 mb-0">John E. Grainger</h6>
+
+                                                    <p class=" mt-1"><a href="">View my Profile</a></p>
+
+                                                </span>
+                                            </li>
+
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-user-line me-2"></i><span
+                                                            class="align-items-center">Edit Profile</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-line-chart-line me-2"></i><span
+                                                            class="align-items-center">Activity Log</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-star-s-line me-2"></i><span
+                                                            class="align-items-center">Go Pro</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-settings-5-line me-2"></i><span
+                                                            class="align-items-center">Account Settings</span> </p>
+                                                </a></li>
+                                            <li class="margin-bottom-remove"><a class="dropdown-item dropdown-item2  "
+                                                    href="#">
+                                                    <p class="me-3 margin-bottom-remove"><i
+                                                            class="ri-logout-circle-line me-2"></i><span
+                                                            class="align-items-center">Sign Out</span> </p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </nav>
+
+                    </div>
+
+                    <div class="container px-4">
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <div class=" border-1 border-bottom">
+                                    <h4 class="fw-bold">Billing</h4>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-12">
+                                <div class="rounded-3 mt-3 border-1 border">
+                                    <div class="">
+                                        <div><img src="./assets/images/profile-cover.jpg" alt=""
+                                                class="img-fluid rounded-top-3"></div>
+                                        <div
+                                            class="position-relative row justify-content-between mx-1 border-1 border-bottom">
+                                            <div class="col-md-12 col-lg-6  ">
+                                                <div class="d-flex ">
+                                                    <div class=" profile"> <img src="./assets/images/avatar-1.jpg"
+                                                            class="img-fluid profile-image position-relative" alt=""
+                                                            srcset="">
+                                                        <div class="position-absolute online-badge">
+                                                            <div class="profile-online"></div>
+                                                        </div>
+                                                        <div class="position-absolute verify-badge">
+                                                            <div><i
+                                                                    class="ri-verified-badge-fill ri-2x text-info fs-4 border-2 border-white"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="p-3">
+                                                        <h2 class="mb-0 pb-0">Jitu Chauhan</h2>
+                                                        <p class="text-dark-color">@imjituchauhan</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-lg-6 ">
+                                                <div class="p-3 text-end ">
+                                                    <a href="" class="btn btn-outline-primary">Edit Profile</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="">
+                                            <ul class="ms-4  d-flex gap-5 pb-0 mb-0">
+                                                <li class="profile-links">
+                                                    <a href="" class=""> Overview</a>
+                                                </li>
+                                                <li class="profile-links">
+                                                    <a href=""> Project</a>
+                                                </li>
+                                                <li class="profile-links">
+                                                    <a href=""> Files</a>
+                                                </li>
+                                                <li class="profile-links">
+                                                    <a href=""> Teams</a>
+                                                </li>
+                                                <li class="profile-links">
+                                                    <a href=""> Followers</a>
+                                                </li>
+                                                <li class="profile-links">
+                                                    <a href=""> Activity</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-md-12 col-lg-12 col-xl-6">
+                                    <div class="p-4 bg-white rounded-3 shadow-sm">
+                                        <h5>About Me</h5>
+                                        <h6 class="mt-4">Bio</h6>
+                                        <p class="text-dark-color">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspen disse var
+                                            ius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
+                                            eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                                        </p>
+                                        <h6>Position</h6>
+                                        <p class="text-dark-color">Theme designer at Bootstrap.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <div>
+                                                    <h6>PHONE</h6>
+                                                    <p class="text-dark-color">+32112345689</p>
+                                                </div>
+                                                <div>
+                                                    <h6>EMAIL</h6>
+                                                    <p class="text-dark-color">Dashui@gmail.com</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <h6>DATE OF BIRTH</h6>
+                                                    <p class="text-dark-color">01.10.1997</p>
+                                                </div>
+                                                <div>
+                                                    <h6>LOCATION</h6>
+                                                    <p class="text-dark-color">Ahmedabad, India</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-12 col-lg-12 col-xl-6 ">
+                                    <div class="p-4 rounded-3 shadow-sm bg-white  ">
+                                        <div class="bg-white p-2   rounded-top-3 ">
+                                            <h5>Teams</h5>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table p-2 ">
+
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex gap-3">
+                                                            <div
+                                                                class="p-1 table-avater-img border border-1 d-flex justify-content-center align-content-center">
+                                                                <img src="./assets/images/slack-logo.svg"
+                                                                    class="img-fluid rounded-circle" alt="">
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <a href="">
+                                                                    <p class="my-auto text-black">Slack Figma Design UI
+                                                                    </p>
+                                                                    <p class="my-auto text-dark-color">Project
+                                                                        description and details about...
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="align-content-center">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="d-flex">
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-1.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-2.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-3.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="dropdown">
+                                                                    <span class=" dropdown-toggle" type="button"
+                                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="ri-more-2-fill text-dark-color"></i>
+                                                                    </span>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Action</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Another
+                                                                                action</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Something
+                                                                                else here</a></li>
+                                                                    </ul>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex gap-3">
+                                                            <div
+                                                                class="p-1 table-avater-img border border-1 d-flex justify-content-center align-content-center">
+                                                                <img src="./assets/images/3dsmax-logo.svg"
+                                                                    class="img-fluid rounded-circle" alt="">
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <a href="">
+                                                                    <p class="my-auto text-black">Design 3d Character
+                                                                    </p>
+                                                                    <p class="my-auto text-dark-color">Project
+                                                                        description and details about...
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="align-content-center">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="d-flex">
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-1.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-2.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-3.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="dropdown">
+                                                                    <span class=" dropdown-toggle" type="button"
+                                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="ri-more-2-fill text-dark-color"></i>
+                                                                    </span>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Action</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Another
+                                                                                action</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Something
+                                                                                else here</a></li>
+                                                                    </ul>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex gap-3">
+                                                            <div
+                                                                class="p-1 table-avater-img border border-1 d-flex justify-content-center align-content-center">
+                                                                <img src="./assets/images/github-logo.svg"
+                                                                    class="img-fluid rounded-circle" alt="">
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <a href="">
+                                                                    <p class="my-auto text-black">Github Development
+                                                                    </p>
+                                                                    <p class="my-auto text-dark-color">Project
+                                                                        description and details about...
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="align-content-center">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="d-flex">
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-1.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-2.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-3.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="dropdown">
+                                                                    <span class=" dropdown-toggle" type="button"
+                                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="ri-more-2-fill text-dark-color"></i>
+                                                                    </span>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Action</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Another
+                                                                                action</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Something
+                                                                                else here</a></li>
+                                                                    </ul>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex gap-3">
+                                                            <div
+                                                                class="p-1 table-avater-img border border-1 d-flex justify-content-center align-content-center">
+                                                                <img src="./assets/images/dropbox-logo.svg"
+                                                                    class="img-fluid rounded-circle" alt="">
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <a href="">
+                                                                    <p class="my-auto text-black">Dropbox Design System
+                                                                    </p>
+                                                                    <p class="my-auto text-dark-color">Project
+                                                                        description and details about...
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="align-content-center">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="d-flex">
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-1.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-2.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-3.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="dropdown">
+                                                                    <span class=" dropdown-toggle" type="button"
+                                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="ri-more-2-fill text-dark-color"></i>
+                                                                    </span>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Action</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Another
+                                                                                action</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Something
+                                                                                else here</a></li>
+                                                                    </ul>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex gap-3">
+                                                            <div
+                                                                class="p-1 table-avater-img border border-1 d-flex justify-content-center align-content-center">
+                                                                <img src="./assets/images/slack-logo.svg"
+                                                                    class="img-fluid rounded-circle" alt="">
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <a href="">
+                                                                    <p class="my-auto text-black">Project Management
+                                                                    </p>
+                                                                    <p class="my-auto text-dark-color">Project
+                                                                        description and details about...
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="align-content-center">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="d-flex">
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-1.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-2.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+                                                                    <div class=" avater-margin"><img
+                                                                            src="./assets/images/avatar-3.jpg"
+                                                                            class="img-fluid avater-img border border-2 border-light"
+                                                                            alt=""></div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="dropdown">
+                                                                    <span class=" dropdown-toggle" type="button"
+                                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="ri-more-2-fill text-dark-color"></i>
+                                                                    </span>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="#">Action</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Another
+                                                                                action</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Something
+                                                                                else here</a></li>
+                                                                    </ul>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <footer class="border border-top">
+                    <div class="d-flex justify-content-between align-items-center px-4 pt-3 ">
+                        <div>
+                            <p>Made By <a href="">Codesscandy</a></p>
+                        </div>
+                        <div>
+                            <p>Destributed by <a href="">ThemeWagon</a></p>
+                        </div>
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

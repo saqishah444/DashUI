@@ -327,3 +327,43 @@ nav {
     text-align: center;
 
 }
+.profile-image{
+    border: 5px solid rgb(175, 175, 175);
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+.profile-online{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #198754;
+    border: 3px solid white;
+}
+
+.online-badge{
+    bottom: 55px ;
+    left: 135px;
+
+}
+.verify-badge{
+    top: -60px;
+    left: 120px;
+    
+}
+.profile{
+    margin-top: -55px;
+    margin-left: 30px;
+}
+.profile-links{
+    
+    a{
+color: #454f5b;
+    }
+}
+.profile-links:hover a{
+    color: #624bff;
+    border-top: #624bff;
+    border-top: 2px;
+    border-top-style: solid;
+}
